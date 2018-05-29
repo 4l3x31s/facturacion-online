@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<th:block th:include="fragments/fragment1 :: head"></th:block>
+</head>
+<body>
+
+<div></div>
+<p th:text="'Hello, ' + ${name} + '!'" />
+<th:block th:include="fragments/fragment1 :: body">
+
+</th:block>
+</body>
+</html>
